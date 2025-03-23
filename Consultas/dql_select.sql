@@ -1,3 +1,5 @@
+USE Los_Ambientales
+
 -- Estado Actual de Parques (20 consultas)
 -- 1.Cantidad de parques por departamento:
 SELECT d.nombre_departamento, COUNT(dp.id_parque) AS num_parques
